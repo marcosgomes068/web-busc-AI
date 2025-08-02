@@ -1,0 +1,27 @@
+
+# Sistema Inteligente de Coleta e Análise Web
+# Dependências necessárias para funcionamento completo
+
+# IA e Processamento de Linguagem Natural
+cohere>=4.0.0                # Cliente oficial da API Cohere para IA
+python-dotenv>=0.19.0        # Carregamento seguro de variáveis de ambiente
+
+# Web Scraping e Requisições HTTP  
+requests>=2.28.0             # Biblioteca HTTP robusta e confiável
+beautifulsoup4>=4.11.0       # Parser HTML/XML para extração de conteúdo
+lxml>=4.6.0                  # Parser XML rápido para BeautifulSoup
+
+# Manipulação de Dados
+json5>=0.9.0                 # Parser JSON com suporte a comentários (opcional)
+
+# Interface e Visualização (Opcional)
+rich>=12.0.0                 # Interface rica no terminal (opcional)
+
+# Desenvolvimento e Testes (Opcional)
+pytest>=7.0.0               # Framework de testes (dev)
+black>=22.0.0               # Formatador de código (dev)  
+flake8>=4.0.0               # Linter para qualidade de código (dev)
+
+# Compatibilidade e Utilitários
+typing-extensions>=4.0.0    # Type hints para Python < 3.10
+urllib3>=1.26.0             # Biblioteca HTTP de baixo nível

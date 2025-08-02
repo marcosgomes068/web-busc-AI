@@ -1,0 +1,290 @@
+# Sistema Inteligente de Coleta e Análise Web
+# Arquivo .gitignore
+
+# ============================================================================
+# CONFIGURAÇÕES SENSÍVEIS
+# ============================================================================
+.env                    # Chaves de API e configurações sensíveis
+*.env                   # Variações de arquivos de ambiente
+.env.local
+.env.prod
+.env.development
+
+# ============================================================================
+# DADOS GERADOS PELO SISTEMA
+# ============================================================================
+# Dados coletados
+dados_*.json            # Arquivos de dados coletados
+*.json                  # Outros arquivos JSON temporários
+
+# Resumos e sínteses
+resumos_parciais_*.txt  # Resumos gerados pelos agentes
+sintese_final_*.txt     # Sínteses finais
+*.txt                   # Outros arquivos de texto gerados
+
+# Logs e relatórios
+logs/                   # Diretório de logs
+*.log                   # Arquivos de log
+relatorios/             # Relatórios gerados
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================================================
+# EDITORES E IDEs
+# ============================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ============================================================================
+# SISTEMA OPERACIONAL
+# ============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# TEMPORÁRIOS E CACHE
+# ============================================================================
+# Cache de requests
+.requests-cache/
+
+# Cache do BeautifulSoup
+.bs4-cache/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Diretórios temporários
+temp/
+tmp/
+cache/
+
+# ============================================================================
+# DADOS DE TESTE
+# ============================================================================
+# Dados de exemplo (comentar se quiser versionar)
+# exemplos/
+# dados_teste/
+# samples/
+
+# ============================================================================
+# CONFIGURAÇÕES ESPECÍFICAS DO PROJETO
+# ============================================================================
+# Configurações locais de desenvolvimento
+config_local.py
+settings_local.py
+
+# Dados históricos grandes
+dados_historicos/
+backup_*.json
+
+# Outputs específicos de debug
+debug_*.txt
+debug_*.json
+
+# ============================================================================
+# DOCUMENTAÇÃO GERADA
+# ============================================================================
+# Documentação auto-gerada
+docs/build/
+docs/_build/
+
+# ============================================================================
+# ESPECÍFICO PARA SCRAPING
+# ============================================================================
+# Cache de scraping
+scraping_cache/
+.scrapy_cache/
+
+# Cookies e sessões salvas
+cookies.txt
+session_*.pkl
+
+# Headers salvos
+headers_*.json
