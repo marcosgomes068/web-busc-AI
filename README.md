@@ -295,7 +295,7 @@ Usamos [SemVer](http://semver.org/) para versionamento. Para versões disponíve
 
 ## 👨‍💻 Autor
 
-**Marco** - [GitHub](https://github.com/seu-usuario)
+**Marco** - [GitHub](https://github.com/marcosgomes068)
 
 ## 🙏 Agradecimentos
 
@@ -311,4 +311,5 @@ Usamos [SemVer](http://semver.org/) para versionamento. Para versões disponíve
 **⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
 
 </div>
+
 
