@@ -303,13 +303,7 @@ Usamos [SemVer](http://semver.org/) para versionamento. Para versões disponíve
 - **BeautifulSoup** pela biblioteca de parsing HTML
 - **Requests** pela biblioteca HTTP robusta
 - **Comunidade Python** pelo suporte e documentação
-
-## 📞 Suporte
-
-- 📧 **Email**: seu-email@exemplo.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/seu-usuario/sistema-coleta-web/issues)
-- 💬 **Discussões**: [GitHub Discussions](https://github.com/seu-usuario/sistema-coleta-web/discussions)
-
+  
 ---
 
 <div align="center">
@@ -317,3 +311,4 @@ Usamos [SemVer](http://semver.org/) para versionamento. Para versões disponíve
 **⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
 
 </div>
+
